@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.humanbionics.vitrinea",
+               "sha256_cert_fingerprints": ["6B:43:3F:A7:88:C3:3C:5A:B9:F8:24:EF:5A:1E:AB:ED:72:9B:08:C0:B8:03:A9:49:5B:19:9A:80:F2:61:07:66"] }
+}]
