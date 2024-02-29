@@ -20,7 +20,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
         <Link href="/sims">Home</Link> |{" "} 
         <Link href="/sims/glasses">Glasses</Link> |{" "}
         <Link href="/sims/testScript">Ts test</Link> |{" "}
-        <a href="/api/users">uwu API</a> |{" "}
+        <Link href="/sims/example">Example</Link> |{" "}
       </nav>
     </header>
       <hr />

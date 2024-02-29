@@ -1,7 +1,13 @@
 import React, { useRef, useEffect, useState } from 'react';
-import getCameraProperties from './glasses.js';
+import getCameraProperties from './glassesjs.js';
 import Webcam from "react-webcam";
 import Layout from "./Layout";
+
+
+// import {  } from '@mediapipe/drawing_utils';
+// import { FaceMesh } from '@mediapipe/face_mesh';
+// import { Camera } from '@mediapipe/camera_utils';
+
 const container: React.CSSProperties = {
   position: "relative",
 };
@@ -16,7 +22,9 @@ const Glasses: React.FC = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const properties = await getCameraProperties(cameraProperties);
+      
+      const properties = await getCameraProperties();
+      // const properties = await getCameraProperties(cameraProperties);
       setCameraProperties(properties);
     };
     fetchData();
